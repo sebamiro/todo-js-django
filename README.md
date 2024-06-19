@@ -5,6 +5,8 @@ Backend: Django
 
 Requirements: Python, Sqlite3
 
+After cloning the repo
+
 ## Install Django
 
 ``` python -m venv venv ```
@@ -15,9 +17,7 @@ Requirements: Python, Sqlite3
 
 ## Run project
 
-After cloning the repo
 
-``` python manage.py makemigrations ```
 ``` python manage.py migrate ```
 
-``` python manage.py runserer ```
+``` python manage.py runserver ```
